@@ -1,0 +1,35 @@
+<!-- iPhone 8 - 2 -->
+<RelativeLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/iphone_8_2"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:clipToOutline="true"
+android:background="@drawable/iphone_8_2"
+ />
+
+
+<!-- drawable/iphone_8_2.xml -->
+<vector
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:aapt="http://schemas.android.com/aapt"
+android:width="398dp"
+android:height="667dp"
+android:viewportWidth="398"
+android:viewportHeight="667"
+ >
+
+<group>
+
+<clip-path
+android:pathData="M0 0H398V667H0V0Z"
+/>
+
+<path
+android:pathData="M0 0V667H398V0"
+android:fillColor="#F7F7F7"
+/>
+
+</group>
+
+</vector>
